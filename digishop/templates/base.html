@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    {% load static %}
+    <link rel ="stylesheet" href="{% static 'shop/css/common.css' %}">
+    <link rel ="stylesheet" href="{% static 'shop/css/semantic.min.css' %}">
+     <title> {% block title %}  {% endblock %} </title>
+
+</head>
+<body>
+<!--header-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        Home
+
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/09/logo.png" height="40" width="40" align="left">
+            <li class="nav-item active">
+
+                <a class="nav-link" href="/"><b>FlipShop ✓</b> <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            {% if request.session.user %}
+
+            <ul class="navbar-nav mr-auto">
+                <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/11/cartmfm-1.png"
+                     height="40" width="40" align="left" >
+            </ul>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="/orders">Orders</a>
+                </li>
+
+
+            <ul class="navbar-nav mr-auto">
+                <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/11/profile.png"
+                     height="40" width="40" align="left" >
+            </ul>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="/profile">Profile</a>
+            </li>
+
+
+
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">◄) Logout</a>
+            </li>
+
+            {% else %}
+
+            <li class="nav-item">
+                <a class="nav-link" href="/signup">(➕) Signup</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/login">➜ Login</a>
+            </li>
+
+
+            {% endif %}
+
+
+        </ul>
+
+    </div>
+</nav>
+<!--header end-->
+
+{% block content %}
+
+{% endblock %}
+
+
+
+</body>
+</html>

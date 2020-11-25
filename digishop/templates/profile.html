@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+user info
+{% load custom_filters %}
+{% endblock %}
+{% block content %}
+
+<h4 class='display-8'>phone no : {{  User.phone }}
+
+</h4>
+           <hr/>
+
+       </div>
+<h4 class='display-8'>email : {{ user.email }}
+
+</h4>
+           <hr/>
+</div>
+<h4 class='display-8'>name : {{ user.name }}
+
+</h4>
+           <hr/>
+</div>
+
+
+
+{% endblock %}
