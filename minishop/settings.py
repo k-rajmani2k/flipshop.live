@@ -27,6 +27,7 @@ SECRET_KEY = '3uits7kk-iq2o%wjq2%*6cao)@db46$f2jdd#=*^28=6vdzhq@'
 DEBUG = False
 
 ALLOWED_HOSTS = ['flipshop-live.herokuapp.com']
+
 #'localhost', '127.0.0.1', 'intense-gorge-59251.herokuapp.com','flipshop-live.herokuapp.com'
 # Application definition
 
