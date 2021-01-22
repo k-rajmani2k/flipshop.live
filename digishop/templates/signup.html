@@ -16,7 +16,6 @@ Sign Up
         </div>
 
 
-
         <form class="ui form" onsubmit="return validate(event)" action="/signup" method="POST">
             {% csrf_token %}
 
@@ -40,15 +39,15 @@ Sign Up
                 <label>Re-Enter Password</label>
                 <input type="password" name="repassword" required placeholder="*******">
             </div>
+            <div class="col-md-6 pull-right">
 
-
-            <div class="field">
-                <div class="ui checkbox">
-                    <input type="checkbox" tabindex="0">
-                    <label>I agree to the Terms and Conditions</label>
+                <div class="field">
+                    <div class="ui checkbox">
+                        <input type="checkbox" tabindex="0">
+                        <label>I agree to the Terms and Conditions</label>
+                    </div>
                 </div>
-            </div>
-            <button class="button ui primary btn-block" type="submit">Submit</button>
+                <button class="button ui primary btn-block" type="submit">Submit</button>
 
         </form>
     </div>

@@ -58,13 +58,31 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/profile">Profile</a>
             </li>
-
+            <ul class="navbar-nav mr-auto">
+                <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2021/01/address-1.png"
+                     height="40" width="40" align="left" >
+            </ul>
+            <li class="nav-item active">
+                <a class="nav-link" href="/address">Address</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/changepassword">Change Password</a>
+            </li>
 
 
             <li class="nav-item">
                 <a class="nav-link" href="/logout">◄) Logout</a>
             </li>
+            <div class="search">
+				<form class="searchbar">
+                    <form action='search' method="get">
 
+					<input type="text" placeholder="Search for books, authors, categories and more..",name="search"/>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-search">Search</button>
+                    </button>
+				</form>
+                    </form>
+			</div>
             {% else %}
 
             <li class="nav-item">
@@ -89,7 +107,118 @@
 
 {% endblock %}
 
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
 
+  <div style="background-color: #6351ce;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/09/logo.png" height="40" width="40" align="left">
+        <h6 class="text-uppercase font-weight-bold">FLIPSHOP</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>This website  allows you to buy and sell intangible goods, digital products or services online.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="/">Quantitive Aptitude</a>
+        </p>
+        <p>
+          <a href="/">Harry Potter Audible</a>
+        </p>
+        <p>
+          <a href="/">Holy Bible</a>
+        </p>
+        <p>
+          <a href="/">and More</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="/profile">Your Account</a>
+        </p>
+        <p>
+          <a href="https://dflipshop.wordpress.com/" target="_blank">Become an Affiliate</a>
+        </p>
+
+        <p>
+          <a href="https://dflipshop.wordpress.com/home-2/"target="_blank">Help</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> paramsiddha@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 91 7987420636</p>
+        <p>
+          <i class="fas fa-heart mr-3"></i> get in touch</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://www.linkedin.com/in/k-rajmani-bapat/"target="_blank"> Made By Kumar Rajmani Bapat ✓</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
 </body>
 </html>

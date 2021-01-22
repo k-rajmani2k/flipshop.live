@@ -24,7 +24,7 @@ class ResetPassword(View):
             error = 'passoword not matched'
 
         if error :
-            return render(request, 'reset-password.html', {'step3': True , 'error': error})
+            return render(request, 'reset-password.html')
         else:
             email = request.session.get('reset-password-email')
             user = User.objects.get(email = email)

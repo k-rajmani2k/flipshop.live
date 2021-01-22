@@ -4,7 +4,7 @@ from instamojo_wrapper import Instamojo
 from minishop.settings import PAYMENT_API_AUTH_TOKEN, PAYMENT_API_KEY
 
 API = Instamojo(api_key=PAYMENT_API_KEY,
-                auth_token=PAYMENT_API_AUTH_TOKEN, endpoint='https://test.instamojo.com/api/1.1/')
+                auth_token=PAYMENT_API_AUTH_TOKEN )
 
 import math
 

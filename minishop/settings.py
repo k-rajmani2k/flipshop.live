@@ -122,8 +122,8 @@ STATIC_URL = '/static/paramsiddha/hub/123/'
 STATIC_ROOT = 'BASE_DIR' + '/static/'
 MEDIA_URL = '/paramsiddha.wordpress.com/home/downloads/uploads/'
 MEDIA_ROOT = BASE_DIR
-PAYMENT_API_KEY = 'test_fa9cfd5d94b90e5f4a0c8e041fb'
-PAYMENT_API_AUTH_TOKEN = 'test_716154a9ff25431e4e0b3905532'
+PAYMENT_API_KEY = 'a1ce78e08fdb4bccfa7b89908a76cc64'
+PAYMENT_API_AUTH_TOKEN = '9c9639f51d59ce753f67578687f0be9a'
 AUTHENTICATION_BACKENDS = (
     ('django.contrib.auth.backends.ModelBackend'),
 )

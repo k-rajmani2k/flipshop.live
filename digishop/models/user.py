@@ -7,5 +7,7 @@ class User(models.Model):
     password = models.CharField(max_length=500)
     phone = models.CharField(max_length=10, unique=True)
 
+    def __str__(self):
+        return self.name
 
 

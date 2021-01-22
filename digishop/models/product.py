@@ -12,6 +12,9 @@ class Product(models.Model):
     link = models.CharField(null=True,blank=True,max_length=500)
     fileSize = models.CharField(null=True,max_length=500)
 
+    def __str__(self):
+        return self.name
+
 
 class ProductImages(models.Model):
     product = models.ForeignKey(Product, default=None, on_delete=models.CASCADE)
