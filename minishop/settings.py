@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '3uits7kk-iq2o%wjq2%*6cao)@db46$f2jdd#=*^28=6vdzhq@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'intense-gorge-59251.herokuapp.com']
 
@@ -126,6 +126,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/paramsiddha/hub/123/'
 STATIC_ROOT = 'BASE_DIR' + '/static/'
+
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 django_heroku.settings(locals())
 MEDIA_URL = '/paramsiddha.wordpress.com/home/downloads/uploads/'
