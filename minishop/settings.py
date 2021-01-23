@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '3uits7kk-iq2o%wjq2%*6cao)@db46$f2jdd#=*^28=6vdzhq@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','flpshop.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 #'localhost', '127.0.0.1', 'intense-gorge-59251.herokuapp.com','flipshop-live.herokuapp.com'
 # Application definition
