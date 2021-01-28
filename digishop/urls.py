@@ -1,5 +1,6 @@
 
 from django.contrib import admin
+from django.conf import settings
 from django.urls import path
 from digishop.views import index
 from digishop.views import LoginView,SignupView
