@@ -16,9 +16,12 @@ class AddressView(View):
             address = request.POST.get('address')
             pincode = request.POST.get('pincode')
 
+
             add =(name, email, phone, address, pincode)
             print(add)
-            add.save()
+            Address.models.Model.save(pincode, address)
+            address.save()
+
 
         except:
             return render(request,'login.html')

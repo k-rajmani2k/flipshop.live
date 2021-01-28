@@ -67,10 +67,10 @@ class PaymentModel(admin.ModelAdmin):
 
 
 class AddressModel(admin.ModelAdmin):
-    list_display = ['name', 'active', 'email', 'phone', 'address', 'pincode']
 
+    fields = ('address')
 
 admin.site.register(Product, ProductModel)
 admin.site.register(User, UserModel)
 admin.site.register(Payment, PaymentModel)
-
+#admin.site.register(Address,AddressModel)

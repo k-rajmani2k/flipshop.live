@@ -18,21 +18,27 @@ def logout(request):
 
 
 def profile(request):
+    try:
+        user_id = request.session.get('user').get('id')
+        user = request.session.get('user')
+        email = user.get('email')
 
-    user_id = request.session.get('user').get('id')
-    user = request.session.get('user')
-    email = user.get('email')
+        user = request.session.get('user')
+        userObject = User.objects.get(id=user.get('id'))
+        q = userObject
 
-    user = request.session.get('user')
-    userObject = User.objects.get(id=user.get('id'))
-    q = userObject
+        c = ["<br> <br> <br> <b><u> YOUR PROFILE <br> <br> <br> </u>",
+             "<b>  Name :", "\n", q, " <br> <br> <br> ",
+             "UserId :", "\n", user_id, " <br> <br> <br> ",
+             " Email :", "\n", email,
+             "<br> <br> <br> Kindly go ← back to continue to Flipshop ",
+             ]
 
-    c = ["<br> <br> <br> <b><u> YOUR PROFILE <br> <br> <br> </u>",
-         "<b>  Name :" ,"\n", q ," <br> <br> <br> ",
-         "UserId :" , "\n",user_id ," <br> <br> <br> ",
-         " Email :" ,"\n", email ,
-          "<br> <br> <br> Kindly go ← back to continue to Flipshop ",
-         ]
+        return HttpResponse(c)
+    except:
 
-    return HttpResponse(c)
+        return render(request,'login.html')
+
+
+
 
