@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
-    'digishop'
+    'digishop',
+    'tawkto'
 ]
 
 MIDDLEWARE = [
@@ -139,6 +140,9 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 django_heroku.settings(locals())
 MEDIA_URL = '/paramsiddha.wordpress.com/home/downloads/uploads/'
 MEDIA_ROOT = BASE_DIR
+TAWKTO_ID_SITE='6019133fa9a34e36b972e03c'
+TAWKTO_API_KEY='4f8bb3676262fc0dafe8cdba4e08f29e6d1aa6ba'
+TAWKTO_IS_SECURE=True
 PAYMENT_API_KEY = 'a1ce78e08fdb4bccfa7b89908a76cc64'
 PAYMENT_API_AUTH_TOKEN = '9c9639f51d59ce753f67578687f0be9a'
 AUTHENTICATION_BACKENDS = (
