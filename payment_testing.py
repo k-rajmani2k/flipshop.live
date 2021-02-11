@@ -7,7 +7,7 @@ api = Instamojo(api_key=PAYMENT_API_KEY,
 # Create a new Payment Request
 response = api.payment_request_create(
     amount='100',
-    purpose='Testing..',
+    purpose='Payment',
     send_email=True,
     email="paramsiddha@gmail.com",
     redirect_url="https://paramsiddha.wordpress.com"

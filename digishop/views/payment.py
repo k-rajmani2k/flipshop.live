@@ -20,7 +20,7 @@ def createPayment(request, product_id):
         send_email=True,
         buyer_name=userObject.name,
         email=user.get('email'),
-        redirect_url="http://localhost:8000/complete-payment"
+        redirect_url="https://flipshop-live.herokuapp.com//complete-payment"
     )
     print(response)
 
