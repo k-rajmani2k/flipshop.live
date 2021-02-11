@@ -28,80 +28,73 @@
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            aria-controls="navbarSupportedContent" aria-expanded="False" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/09/logo.png" height="40" width="40" align="left">
-            <li class="nav-item active">
+    <ul class="navbar-nav mr-auto">
+        <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/09/logo.png" height="40" width="40" align="left">
+        <li class="nav-item active">
 
-                <a class="nav-link" href="/"><b>FlipShop ✓</b> <span class="sr-only">(current)</span></a>
-            </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-            {% if request.session.user %}
+            <a class="nav-link" href="/"><b>FlipShop ✓</b> <span class="sr-only">(current)</span></a>
+        </li>
+    </ul>
+    {% if request.session.user %}
 
-            <ul class="navbar-nav mr-auto">
-                <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/11/cartmfm-1.png"
-                     height="40" width="40" align="left" >
-            </ul>
+    <ul class="navbar-nav mr-auto">
+        <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/11/cartmfm-1.png"
+             height="40" width="40" align="left" >
+    </ul>
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="/orders">Orders</a>
-                </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="/orders">Orders</a>
+    </li>
 
 
-            <ul class="navbar-nav mr-auto">
-                <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/11/profile.png"
-                     height="40" width="40" align="left" >
-            </ul>
+    <ul class="navbar-nav mr-auto">
+        <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2020/11/profile.png"
+             height="40" width="40" align="left" >
+    </ul>
 
-            <li class="nav-item active">
-                <a class="nav-link" href="/profile">Profile</a>
-            </li>
-            <ul class="navbar-nav mr-auto">
-                <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2021/01/address-1.png"
-                     height="40" width="40" align="left" >
-            </ul>
-            <li class="nav-item active">
-                <a class="nav-link" href="/address">Address</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/changepassword">Change Password</a>
-            </li>
-
-
-            <li class="nav-item">
-                <a class="nav-link" href="/logout">◄) Logout</a>
-            </li>
-            <div class="search">
-				<form class="searchbar">
-                    <form action='search' method="get">
-
-					<input type="text" placeholder="Search for books, authors, categories and more..",name="search"/>
-                    <button type="submit" class="btn btn-primary"><i class="fa fa-search">Search</button>
-                    </button>
-				</form>
-                    </form>
-			</div>
-            {% else %}
-
-            <li class="nav-item">
-                <a class="nav-link" href="/signup">(➕) Signup</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="/login">➜ Login</a>
-            </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="/profile">Profile</a>
+    </li>
+    <ul class="navbar-nav mr-auto">
+        <img class="rounded float-left" src="https://paramsiddha.files.wordpress.com/2021/01/address-1.png"
+             height="40" width="40" align="left" >
+    </ul>
+    <li class="nav-item active">
+        <a class="nav-link" href="/address">Address</a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="/changepassword">Change Password</a>
+    </li>
 
 
-            {% endif %}
+    <li class="nav-item">
+        <a class="nav-link" href="/logout">◄) Logout</a>
+    </li>
+    <div class="search">
+        <form class="searchbar">
+            <form action='search' method="get">
+
+                <input type="text" placeholder="Search for books, authors, categories and more..",name="search"/>
+                <button type="submit" class="btn btn-primary"><i class="fa fa-search">Search</button>
+            </form>
+        </form>
+    </div>
+    {% else %}
+
+    <li class="nav-item">
+        <a class="nav-link" href="/signup">(➕) Signup</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/login">➜ Login</a>
+    </li>
 
 
-        </ul>
-
+    {% endif %}
     </div>
 </nav>
 <!--header end-->
@@ -228,19 +221,7 @@
     <a href="https://www.linkedin.com/in/k-rajmani-bapat/"target="_blank"> Made By Kumar Rajmani Bapat ✓</a>
   </div>
   <!-- Copyright -->
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6019133fa9a34e36b972e03c/1etgv6d6q';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
 </footer>
 <!-- Footer -->
 <!--Start of Tawk.to Script-->
