@@ -15,7 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d814e3c-9f99-4b98-90a8-4b69a7ab20c3" name="Default Changelist" comment="change their">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minishop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/minishop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +93,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606319585844</updated>
-    </task>
-    <task id="LOCAL-00025" summary="d">
-      <created>1613050152010</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1613050152010</updated>
     </task>
     <task id="LOCAL-00026" summary="d">
       <created>1613051481080</created>
@@ -438,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613734347442</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="b">
+      <created>1613734725474</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1613734725474</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
