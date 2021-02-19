@@ -8,7 +8,7 @@ class Product(models.Model):
     active = models.BooleanField(default=0)
     discount = models.IntegerField(default=0)
     file = models.FileField(upload_to='uploads/files', null=True,blank=True)
-    thumbnail = models.ImageField(upload_to='minishop/uploads/thumbnail')
+    thumbnail = models.ImageField(upload_to='uploads/thumbnail')
     link = models.CharField(null=True,blank=True,max_length=500)
     fileSize = models.CharField(null=True,max_length=500)
 
