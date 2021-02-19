@@ -137,7 +137,7 @@ STATIC_URL = '/static/paramsiddha/hub/123/'
 STATIC_ROOT =os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 django_heroku.settings(locals())
-MEDIA_URL = '/staticfiles/'
+MEDIA_URL = '/download/paidproduct/<int:product_id>/'
 MEDIA_ROOT = BASE_DIR
 PAYMENT_API_KEY = 'a1ce78e08fdb4bccfa7b89908a76cc64'
 PAYMENT_API_AUTH_TOKEN = '9c9639f51d59ce753f67578687f0be9a'
