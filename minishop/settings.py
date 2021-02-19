@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import django_heroku
 import dj_database_url
 from pathlib import Path
+from django.conf.urls.static import static
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -24,9 +25,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '3uits7kk-iq2o%wjq2%*6cao)@db46$f2jdd#=*^28=6vdzhq@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://flipshop-live.herokuapp.com/']
+ALLOWED_HOSTS = ['.herokuapp.com','127.0.0.1:8000/']
 
 #'localhost', '127.0.0.1', 'intense-gorge-59251.herokuapp.com','flipshop-live.herokuapp.com'
 # Application definition
@@ -132,10 +133,8 @@ STATIC_URL = '/static/paramsiddha/hub/123/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )'''
-STATIC_URL = '/static/'
-STATIC_ROOT = 'BASE_DIR' + '/static/'
-'''STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')'''
+
+STATIC_ROOT =os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 django_heroku.settings(locals())
 MEDIA_URL = 'https://drive.google.com/drive/u/1/folders/1e9LezHW9aor2zZmBgmPGQ16QLTMMkJeG/'
