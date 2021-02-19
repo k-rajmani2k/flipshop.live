@@ -15,8 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d814e3c-9f99-4b98-90a8-4b69a7ab20c3" name="Default Changelist" comment="change their">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digishop/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/digishop/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minishop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/minishop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +94,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606319585844</updated>
-    </task>
-    <task id="LOCAL-00024" summary="e">
-      <created>1612257680690</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1612257680691</updated>
     </task>
     <task id="LOCAL-00025" summary="d">
       <created>1613050152010</created>
@@ -439,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613733677451</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="b">
+      <created>1613734347442</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1613734347442</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,10 +507,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="64" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607278273691" />
-    <state x="261" y="79" key="Vcs.Push.Dialog.v2" timestamp="1613733681489">
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2" timestamp="1613734351840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="79" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613733681489" />
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613734351840" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607278333445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
