@@ -134,7 +134,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )'''
 STATIC_URL = '/static/'
-STATIC_ROOT =os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT =os.path.join(BASE_DIR,'static')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 django_heroku.settings(locals())
 MEDIA_URL = 'https://drive.google.com/drive/folders/1e9LezHW9aor2zZmBgmPGQ16QLTMMkJeG/'
