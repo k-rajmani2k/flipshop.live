@@ -7,8 +7,8 @@ class Product(models.Model):
     price = models.IntegerField(default=0)
     active = models.BooleanField(default=0)
     discount = models.IntegerField(default=0)
-    file = models.FileField(null=True,blank=True)
-    thumbnail = models.ImageField()
+    file = models.FileField(upload_to='uploads/files', null=True,blank=True)
+    thumbnail = models.ImageField(upload_to='uploads/thumbnail')
     link = models.CharField(null=True,blank=True,max_length=500)
     fileSize = models.CharField(null=True,max_length=500)
 
@@ -18,4 +18,4 @@ class Product(models.Model):
 
 class ProductImages(models.Model):
     product = models.ForeignKey(Product, default=None, on_delete=models.CASCADE)
-    image = models.ImageField(blank=True)
+    image = models.ImageField(upload_to='uploads/images',blank=True)
