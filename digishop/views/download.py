@@ -30,4 +30,4 @@ def downloadPaidProduct(request, product_id):
 
 def proimages(request, product_id):
     product = Product.objects.get(id=product_id)
-    return (product.thumbnail)
+    return redirect(product.thumbnail)
