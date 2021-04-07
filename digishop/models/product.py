@@ -1,4 +1,3 @@
-import img as img
 from django.db import models
 
 
