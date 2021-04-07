@@ -27,3 +27,7 @@ def downloadPaidProduct(request, product_id):
             return redirect(product.link)
     else:
         return redirect('index')
+
+def proimages(request, product_id):
+    product = Product.objects.get(id=product_id)
+    return (product.thumbnail)
