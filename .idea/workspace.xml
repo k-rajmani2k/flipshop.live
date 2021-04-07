@@ -14,7 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d814e3c-9f99-4b98-90a8-4b69a7ab20c3" name="Default Changelist" comment="change their">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/digishop/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/digishop/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minishop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/minishop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,13 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606319585844</updated>
-    </task>
-    <task id="LOCAL-00036" summary="b">
-      <created>1613066612702</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1613066612702</updated>
     </task>
     <task id="LOCAL-00037" summary="b">
       <created>1613066840377</created>
@@ -437,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617802248594</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="a">
+      <created>1617802494592</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1617802494592</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,10 +498,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610634540287" />
-    <state x="261" y="79" key="Vcs.Push.Dialog.v2" timestamp="1617802252921">
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2" timestamp="1617802498208">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="79" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617802252921" />
+    <state x="261" y="79" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617802498208" />
     <state x="535" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609695778591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
