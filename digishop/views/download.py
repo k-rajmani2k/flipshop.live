@@ -6,9 +6,9 @@ def downloadFree(request, product_id):
     try:
         product = Product.objects.get(id=product_id)
         if product.discount == 100:
-            return redirect(product.file.url)
+            return redirect(product.link)
         else:
-            return redirect('index');
+            return redirect(product.file.url);
     except:
         return redirect('index');
 
