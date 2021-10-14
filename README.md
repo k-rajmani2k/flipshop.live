@@ -1,2 +1,2 @@
 # flipshop.live
-underdevelopement
+developed sucessfully
