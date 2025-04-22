@@ -1,2 +1,2 @@
 # flipshop.live
-developed sucessfully
+B2B Ecommerce website developed successfully
